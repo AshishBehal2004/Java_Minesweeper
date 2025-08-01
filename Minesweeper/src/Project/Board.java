@@ -8,7 +8,7 @@ public class Board{
 	
 	Cell[][] board;
 	
-	
+	//initialising the grid
 	Board() {
 		this.rows = rows;
 		this.column = column;
@@ -21,6 +21,7 @@ public class Board{
 		}
 	}
 	
+	//for now, just displaying the grid
 	public void printBoard() {
 		
 		for (int i=0; i<rows;i++) {
